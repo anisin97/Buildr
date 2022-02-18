@@ -1,0 +1,9 @@
+{
+    "name": "<%= projectName %>",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+      "install": "npm install --save-dev neutrino @neutrinojs/react  "
+    }
+  }
+  

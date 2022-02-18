@@ -1,0 +1,38 @@
+{
+  "name": "buildr-cli",
+  "version": "1.0.0",
+  "description": "Tool to generate starter code for projects.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc && shx rm -rf dist/templates && shx cp -r src/templates dist"
+  },
+  "bin": {
+    "buildr": "src/index.js"
+  },
+  "keywords": [],
+  "author": "ani&adi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ejs": "^3.0.2",
+    "@types/figlet": "^1.5.4",
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^13.11.1",
+    "@types/shelljs": "^0.8.9",
+    "nodemon": "^2.0.3",
+    "shx": "^0.3.2",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^7.1.0",
+    "log-beautify": "^1.2.0",
+    "shelljs": "^0.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://buildr-cli"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "<%= projectName %>",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+      "install": "git clone https://github.com/mozilla/mortar-list-detail.git <%= projectName %> && cd <%= projectName %> "
+    }
+  }
+  

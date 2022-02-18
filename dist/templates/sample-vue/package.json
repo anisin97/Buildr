@@ -1,0 +1,9 @@
+{
+  "name": "<%= projectName %>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "install": "npm install -g mevn-cli && npm link",
+    "name": "mevn init <%= projectName %>"
+  }
+}
